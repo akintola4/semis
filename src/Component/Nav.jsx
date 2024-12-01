@@ -157,7 +157,7 @@ export default function Nav() {
                         <DarkSwitcher />
                     </div>
                     <button
-                        className="flex p-2 rounded-md dark:text-white outline-none cursor-pointer mobile-menu-button lg:hidden hover:bg-none hover:text-white" onClick={toggleMenu}>
+                        className="flex p-2 rounded-md dark:text-white outline-none cursor-pointer mobile-menu-button lg:hidden hover:bg-none " onClick={toggleMenu}>
                         <RxHamburgerMenu className="text-2xl" /></button>
                         
                 </div>
