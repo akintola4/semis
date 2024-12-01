@@ -110,7 +110,7 @@ function Home() {
                         <h4 className="  md:text-4xl font-bold dark:text-white text-center  text-2xl text-primaryColor">Merging growth and scalability for sustainable business </h4>
 
                     </div>
-                    <div className="flex flex-col gap-4 w-10/12" >
+                    <div className="flex flex-col gap-4 md:w-10/12" >
                         <p className=" text-gray-950 text-sm md:text-lg  text-center  font-light  dark:text-gray-300 ">At Semis Consultants, we empower businesses to unlock their full potential with tailored strategies and expert solutions. From strategic planning and operational optimization to financial management and market analysis, we deliver insights and customized strategies to drive sustainable growth.</p>
                         <p className=" text-gray-950 text-sm md:text-lg  text-center  font-light  dark:text-gray-300 ">
                             Our mission is to be a trusted partner for businesses, offering innovative solutions that deliver measurable results. Whether streamlining processes, expanding your reach, or boosting profitability, Semis Consultants is dedicated to helping you overcome challenges and achieve long-term success. </p>

@@ -83,8 +83,8 @@ export default function Nav() {
             <nav className="flex items-center p-3 justify-between" aria-label="Global">
                 <Link to="/" className="flex flex-row lg:items-center lg:justify-center gap-2 w-4/12  lg:w-2/12">
 
-                    <img src="/img/logo-black.svg" className="w-6/12 block dark:hidden md:w-8/12" alt="comapny logo" />
-                    <img src="/img/logo-light.svg" className="w-6/12 hidden dark:block md:w-8/12" alt="comapny logo" />
+                    <img src="/img/logo-black.svg" className="w-12/12 block dark:hidden md:w-8/12" alt="comapny logo" />
+                    <img src="/img/logo-light.svg" className="w-12/12 hidden dark:block md:w-8/12" alt="comapny logo" />
                 </Link>
                 <div className=" flex-row items-center hidden lg:gap-10 xl:gap-20   rounded-lg py-2 px-3 justify-center  lg:flex ">
                 <div className="relative text-md  w-fit block hover:text-primaryColor after:block after:content-[''] after:absolute after:h-[2px] after:bg-primaryColor after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
