@@ -83,8 +83,8 @@ export default function Nav() {
             <nav className="flex items-center p-3 justify-between" aria-label="Global">
                 <Link to="/" className="flex flex-row lg:items-center lg:justify-center gap-2 w-4/12  lg:w-2/12">
 
-                    <img src="/img/logo-black.svg" className="w-12/12 block dark:hidden md:w-8/12" alt="comapny logo" />
-                    <img src="/img/logo-light.svg" className="w-12/12 hidden dark:block md:w-8/12" alt="comapny logo" />
+                    <img src="/img/logo-black.svg" className="w-full block dark:hidden md:w-8/12" alt="comapny logo" />
+                    <img src="/img/logo-light.svg" className="w-full hidden dark:block md:w-8/12" alt="comapny logo" />
                 </Link>
                 <div className=" flex-row items-center hidden lg:gap-10 xl:gap-20   rounded-lg py-2 px-3 justify-center  lg:flex ">
                 <div className="relative text-md  w-fit block hover:text-primaryColor after:block after:content-[''] after:absolute after:h-[2px] after:bg-primaryColor after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
@@ -165,33 +165,78 @@ export default function Nav() {
             </nav>
             <div className={`lg:hidden mobile-menu ${isOpen ? "" : "hidden "}`}>
                 <div className="gap-20 mx-auto">
-                    <div className="px-5 py-2 transition duration-300 dark:text-white">
-                        <Link to="/" className="flex flex-row gap-2 items-center">
-                            Home
-                        </Link>
-                    </div>
-                    <div className="px-5 py-2 transition duration-300 dark:text-white">
-                        <Link to="/about" className="flex flex-row gap-2 items-center">
-                            About us
-                        </Link>
-                    </div>
-
-                    <div className="px-5 py-2 transition duration-300 dark:text-white">
-                        <Link className="flex flex-row gap-2 items-center"
-                            to="/Services">
-                            Services
-                        </Link></div>
+                <div className="px-5 py-2 transition duration-300 dark:text-white">
+                <a
+                            href="#services" // Use the section ID
+                            className="flex hover:text-primaryColor flex-row gap-2 items-center"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                document.getElementById('services')?.scrollIntoView({
+                                    behavior: 'smooth'
+                                });
+                            }}
+                        >
+                             Services
+                        </a>
+                        </div>
                         
                     <div className="px-5 py-2 transition duration-300 dark:text-white">
-                        <Link className="flex flex-row gap-2 items-center"
-                            to="/contact">
-                            Contact
-                        </Link></div>
+                    <a
+                            href="#pricing" // Use the section ID
+                            className="flex hover:text-primaryColor flex-row gap-2 items-center"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                document.getElementById('pricing')?.scrollIntoView({
+                                    behavior: 'smooth'
+                                });
+                            }}
+                        >
+                             Pricing
+                        </a>
+                    </div>
+                    <div className="px-5 py-2 transition duration-300 dark:text-white">
+                    <a
+                            href="#footer" // Use the section ID
+                            className="flex hover:text-primaryColor flex-row gap-2 items-center"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                document.getElementById('footer')?.scrollIntoView({
+                                    behavior: 'smooth'
+                                });
+                            }}
+                        >
+                             Contact
+                        </a>
+                       </div>
+                       <div className="px-5 py-2 transition duration-300 dark:text-white">
+                       <a
+                            href="#about" // Use the section ID
+                            className="flex hover:text-primaryColor flex-row gap-2 items-center"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                document.getElementById('about')?.scrollIntoView({
+                                    behavior: 'smooth'
+                                });
+                            }}
+                        >
+                             About
+                        </a>
+                       </div>
                         <div className="px-5 py-2 transition duration-300 dark:text-white">
-                        <Link className="flex flex-row gap-2 items-center"
-                            to="/FAQs">
-                            FAQs
-                        </Link></div>
+                        <a
+                            href="#fqa" // Use the section ID
+                            className="flex hover:text-primaryColor flex-row gap-2 items-center"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                document.getElementById('fqa')?.scrollIntoView({
+                                    behavior: 'smooth'
+                                });
+                            }}
+                        >
+                             FQA
+                        </a>
+                        </div>
+                        
                         <div className="px-5 py-2 transition duration-300 dark:text-white">
                         <div className=" flex-row  gap-4 flex items-center ">
 

@@ -159,7 +159,7 @@ function Home() {
             </section>
 
 
-            <section id="reviews" name="reviews" className=" flex flex-col items-start py-10 gap-10 px-5    xl:px-32 bg-primaryColor dark:bg-btn-base-dark"  >
+            <section id="fqa" name="fqa" className=" flex flex-col items-start py-10 gap-10 px-5    xl:px-32 bg-primaryColor dark:bg-btn-base-dark"  >
 
                 <h4 className="  md:text-6xl font-medium text-white mx-auto text-2xl">Frequently asked questions</h4>
 
