@@ -233,7 +233,7 @@ export default function Nav() {
                                 });
                             }}
                         >
-                             FQA
+                             FAQ
                         </a>
                         </div>
                         
