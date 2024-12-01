@@ -13,7 +13,7 @@ Developers
 - dev akintola (photofola)
 
 Designers
-- Mayowa (https://x.com/zionxi99?s=21)  
+- Farid (https://x.com/LagoonRedd14081)  
 
 ## libs
 - tailwind (npm install -D tailwindcss postcss autoprefixer npx tailwindcss init -p)

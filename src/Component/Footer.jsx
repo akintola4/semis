@@ -46,7 +46,7 @@ export default function Footer() {
                     </div>
                     <div className="flex flex-col items-center xl:items-start gap-4 xl:gap-0 lg:flex-row p-5  justify-center border-t-2 ">
 
-                        <h4 className=" text-sm text-center lg:text-left">©2024 Semis consult & co by <a href="https://x.com/zionxi99?s=21">Ola</a>  and implemented by <a href="https://x.com/photofola">Dev Akintola</a></h4>
+                        <h4 className=" text-sm text-center lg:text-left">©2024 Semis consult & co by <a href="https://x.com/LagoonRedd14081">Farid</a>  and implemented by <a href="https://x.com/photofola">Dev Akintola</a></h4>
                     </div>
                 </div>
             </div>
