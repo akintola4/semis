@@ -74,12 +74,38 @@ function Home() {
             <section id="brand" name="brand" className="flex flex-col gap-6" >
                 <div className="flex flex-col text-center gap-2">
                     <p className="  text-primaryColor dark:text-white text-center text-md  p-2">Our partners</p>
+                    <p className=" text-gray-950 text-sm md:text-lg  text-center block md:hidden font-light  dark:text-gray-300 ">Trusted by 200k+ companies nationwide</p>
+                    
                     {/* <p className=" text-gray-400 mx-auto dark:text-gray-300">Our values are the foundation of everything we do</p> */}
                 </div>
-                <MovingDiv>
+                <section
+                        id='brand-logos'
+                        className='brand-logos hidden
+      md:grid grid-cols-3 sm:grid-cols-5 md:grid-cols-4 lg:grid-cols-6
+      justify-center items-center 
+      gap-8 sm:gap-10 md:gap-12 px-5
+      p-4 md:px-10 lg:px-20'
+                    >
+                        {brandLogos.map((logo, index) => (
+                            <img
+                                key={index}
+                                src={`img/${logo}`}
+                                className='
+          w-full 
+          max-w-[100px] 
+          sm:max-w-[120px] 
+          md:max-w-none 
+          scale-125 sm:scale-100 
+          xl:w-auto
+          dark:invert'
+                                alt={`brand-logo-${index + 1}`}
+                            />
+                        ))}
+                    </section>
+                <MovingDiv >
                     <section
                         id='brand-logos'
-                        className='brand-logos 
+                        className='brand-logos md:hidden
       grid grid-cols-3 sm:grid-cols-5 md:grid-cols-4 lg:grid-cols-6
       justify-center items-center 
       gap-8 sm:gap-10 md:gap-12 px-5

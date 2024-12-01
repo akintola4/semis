@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 function ServiceCard({ service }) {
   return (
-    <div className="flex flex-col gap-4 bg-gray-50 dark:bg-gray-900 dark:border-transparent  border hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] p-6 dark:hover:shadow-[rgba(247,240,_252,_0.1)_0px_0px_10px] rounded-lg" data-aos="fade-right">
+    <div className="flex flex-col gap-4  dark:bg-gray-900 dark:border-transparent  border hover:shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] p-6 dark:hover:shadow-[rgba(247,240,_252,_0.1)_0px_0px_10px] rounded-lg" data-aos="fade-right">
 
       <h4 className=" text-lg md:text-xl font-semibold dark:text-gray-50 text-gray-950">{service.title}</h4>
       <p className="font-light text-sm dark:text-gray-100 md:text-md ">{service.description} </p>
