@@ -92,7 +92,7 @@ function Home() {
                                 className='
           w-full 
           max-w-[100px] 
-          sm:max-w-[120px] 
+          sm:max-w-[80px] 
           md:max-w-none 
           scale-125 sm:scale-100 
           xl:w-auto
